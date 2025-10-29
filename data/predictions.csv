@@ -1,0 +1,201 @@
+Order_ID,Order_Date,Customer_Segment,Priority,Product_Category,Order_Value_INR,Origin,Destination,Special_Handling,Carrier,Promised_Delivery_Days,Actual_Delivery_Days,Delivery_Status,Quality_Issue,Customer_Rating,Delivery_Cost_INR,Distance_KM,Traffic_Delay_Minutes,Fuel_Cost,Labor_Cost,Vehicle_Maintenance,Insurance,Packaging_Cost,Technology_Platform_Fee,Other_Overhead,Rating,delay_prob
+ORD000001,2025-10-09,Individual,Express,Industrial,238.73,Kolkata,Hyderabad,,SpeedyLogistics,1.0,2.0,Slightly-Delayed,Perfect,3.0,387.86,152.59,21.0,151.36,110.31,53.0,32.17,37.46,43.77,30.38,,0.37333333333333335
+ORD000002,2025-09-29,SMB,Express,Industrial,17.01,Hyderabad,Kolkata,,SpeedyLogistics,2.0,3.0,Slightly-Delayed,Minor_Damage,1.0,430.19,362.05,33.0,157.32,146.2,51.61,28.54,21.74,48.64,38.74,1.0,0.8833333333333333
+ORD000003,2025-09-15,SMB,Economy,Industrial,3024.95,Mumbai,Pune,,SpeedyLogistics,10.0,15.0,Severely-Delayed,Minor_Damage,3.0,1039.19,519.74,2.0,322.61,319.74,128.03,58.13,102.91,92.06,55.45,3.0,0.8266666666666667
+ORD000004,2025-10-13,Individual,Economy,Fashion,56.74,Hyderabad,Ahmedabad,,QuickShip,5.0,5.0,On-Time,Perfect,5.0,599.01,540.87,112.0,215.33,194.01,60.87,49.68,45.89,50.4,35.12,,0.11
+ORD000005,2025-09-08,SMB,Standard,Fashion,19148.65,Chennai,Mumbai,,SpeedyLogistics,4.0,5.0,Slightly-Delayed,Perfect,3.0,537.9,1251.56,10.0,191.92,150.42,79.03,48.92,53.35,48.62,52.98,,0.7633333333333333
+ORD000006,2025-09-21,Individual,Express,Food & Beverage,158.22,Chennai,Dubai,,GlobalTransit,1.0,2.0,Slightly-Delayed,Perfect,4.0,378.99,3041.83,0.0,130.04,107.92,38.85,19.95,32.06,37.26,23.24,,0.42333333333333334
+ORD000007,2025-10-09,Individual,Standard,Electronics,736.82,Pune,Bangalore,,QuickShip,3.0,3.0,On-Time,Perfect,4.0,439.72,854.87,10.0,158.91,121.05,56.67,29.88,40.09,49.61,32.48,4.0,0.21333333333333335
+ORD000008,2025-09-19,Enterprise,Standard,Industrial,4771.54,Chennai,Kolkata,,GlobalTransit,5.0,10.0,Severely-Delayed,Perfect,2.0,836.35,1430.06,81.0,280.25,239.41,117.33,55.54,50.56,69.74,61.33,,0.8666666666666667
+ORD000009,2025-09-23,SMB,Express,Books,3711.35,Delhi,Hong Kong,,SpeedyLogistics,2.0,2.0,On-Time,Perfect,5.0,414.8,3708.13,0.0,144.44,138.58,46.07,28.64,37.51,46.85,28.72,5.0,0.22333333333333333
+ORD000010,2025-09-11,SMB,Standard,Electronics,7936.32,Hyderabad,Mumbai,Hazmat,GlobalTransit,4.0,9.0,Severely-Delayed,Minor_Damage,3.0,891.65,771.73,16.0,308.43,249.95,130.74,49.87,86.21,95.72,68.28,,0.92
+ORD000011,2025-09-11,Enterprise,Standard,Books,41.07,Delhi,Bangkok,,EcoDeliver,3.0,4.0,Slightly-Delayed,Perfect,3.0,319.8,4720.83,0.0,96.98,95.16,38.5,18.57,26.49,38.01,24.98,3.0,0.8466666666666667
+ORD000012,2025-09-24,Enterprise,Standard,Electronics,73.42,Mumbai,Hong Kong,,ReliableExpress,3.0,3.0,On-Time,Perfect,5.0,583.33,3797.36,0.0,216.69,149.83,70.51,32.56,47.04,68.56,48.47,,0.12
+ORD000013,2025-10-06,SMB,Standard,Food & Beverage,566.23,Hyderabad,Bangalore,,QuickShip,3.0,3.0,On-Time,Perfect,4.0,587.57,164.57,102.0,180.78,167.73,74.93,41.22,53.87,66.15,47.35,4.0,0.12
+ORD000014,2025-10-10,SMB,Express,Industrial,1421.72,Delhi,Bangalore,,SpeedyLogistics,2.0,2.0,On-Time,Perfect,5.0,313.96,1450.16,45.0,105.91,86.51,33.06,21.27,22.18,33.6,26.03,5.0,0.07666666666666666
+ORD000015,2025-09-24,Enterprise,Standard,Industrial,396.69,Kolkata,Delhi,Hazmat,EcoDeliver,3.0,3.0,On-Time,Perfect,5.0,435.14,1748.33,25.0,133.59,125.98,47.47,25.17,39.76,35.54,30.88,5.0,0.07
+ORD000016,2025-09-03,Enterprise,Standard,Healthcare,34.57,Delhi,Mumbai,Fragile,ReliableExpress,3.0,3.0,On-Time,Perfect,5.0,425.42,921.79,54.0,134.78,143.76,54.39,26.19,31.96,46.48,41.65,,0.16666666666666666
+ORD000017,2025-09-22,Individual,Standard,Books,849.69,Hyderabad,Singapore,,GlobalTransit,5.0,5.0,On-Time,Perfect,4.0,437.4,2857.35,0.0,140.86,148.11,64.17,41.91,35.77,46.01,30.69,,0.11
+ORD000018,2025-09-02,Enterprise,Economy,Electronics,301.46,Mumbai,Chennai,Fragile,EcoDeliver,7.0,8.0,Slightly-Delayed,Perfect,3.0,658.72,757.12,114.0,247.18,199.68,88.18,47.05,57.03,74.42,37.76,,0.81
+ORD000019,2025-09-24,Enterprise,Standard,Electronics,296.08,Ahmedabad,Bangalore,Hazmat,GlobalTransit,5.0,6.0,Slightly-Delayed,Wrong_Item,1.0,417.76,1571.48,81.0,160.12,127.01,59.42,29.9,28.81,48.71,26.13,1.0,0.89
+ORD000020,2025-10-14,SMB,Express,Fashion,13.24,Kolkata,Pune,Temperature_Controlled,QuickShip,2.0,2.0,On-Time,Perfect,5.0,311.13,1123.6,6.0,119.6,92.84,39.11,20.36,24.47,28.94,16.17,5.0,0.13
+ORD000021,2025-09-30,Individual,Express,Healthcare,1334.39,Mumbai,Singapore,Fragile,QuickShip,2.0,2.0,On-Time,Perfect,5.0,526.67,2601.42,0.0,172.33,132.0,78.43,51.77,36.74,57.48,35.44,5.0,0.08
+ORD000022,2025-10-08,Enterprise,Standard,Home Goods,501.6,Bangalore,Dubai,Fragile,SpeedyLogistics,3.0,3.0,On-Time,Perfect,5.0,363.82,3317.45,0.0,133.56,120.26,53.6,25.47,32.44,32.98,36.21,5.0,0.13666666666666666
+ORD000023,2025-09-02,SMB,Express,Home Goods,5959.53,Ahmedabad,Dubai,,EcoDeliver,1.0,3.0,Slightly-Delayed,Perfect,4.0,577.28,2187.37,0.0,174.67,179.16,76.76,48.72,32.34,67.85,34.09,4.0,0.77
+ORD000024,2025-09-21,Individual,Standard,Fashion,360.77,Bangalore,Kolkata,,ReliableExpress,5.0,6.0,Slightly-Delayed,Perfect,3.0,612.64,967.74,30.0,221.94,166.8,70.67,47.37,43.41,52.94,35.87,,0.8133333333333334
+ORD000025,2025-10-03,Enterprise,Economy,Fashion,943.42,Mumbai,Hyderabad,,QuickShip,10.0,10.0,On-Time,Perfect,5.0,951.95,1396.41,85.0,325.39,310.08,137.94,51.6,66.31,79.97,48.39,5.0,0.1
+ORD000026,2025-09-12,Individual,Standard,Fashion,1404.91,Bangalore,Delhi,,SpeedyLogistics,5.0,6.0,Slightly-Delayed,Perfect,3.0,629.91,1277.31,20.0,230.66,195.43,68.13,38.86,32.24,71.43,62.19,3.0,0.87
+ORD000027,2025-09-22,SMB,Standard,Books,29.39,Bangalore,Bangkok,,SpeedyLogistics,5.0,5.0,On-Time,Perfect,5.0,361.87,4413.31,0.0,113.46,98.84,51.9,34.86,25.69,29.68,18.81,,0.18666666666666668
+ORD000028,2025-10-14,SMB,Standard,Books,20435.93,Kolkata,Dubai,,GlobalTransit,5.0,5.0,On-Time,Perfect,5.0,620.17,4872.34,0.0,221.65,179.41,62.91,49.09,31.36,69.15,40.51,,0.47333333333333333
+ORD000029,2025-09-25,SMB,Standard,Food & Beverage,211.41,Chennai,Singapore,,ReliableExpress,3.0,3.0,On-Time,Perfect,5.0,267.94,4030.46,0.0,81.46,82.75,32.12,26.44,20.69,24.39,22.9,,0.17333333333333334
+ORD000030,2025-10-19,SMB,Standard,Food & Beverage,847.13,Delhi,Chennai,Fragile,GlobalTransit,5.0,5.0,On-Time,Perfect,5.0,530.24,124.34,24.0,173.47,180.51,62.96,41.09,27.85,51.46,48.58,5.0,0.10666666666666667
+ORD000031,2025-09-27,Enterprise,Economy,Fashion,1054.55,Mumbai,Bangkok,Temperature_Controlled,QuickShip,7.0,8.0,Slightly-Delayed,Perfect,3.0,871.77,2207.09,0.0,331.77,237.5,97.03,79.21,84.14,73.07,63.21,3.0,0.7533333333333333
+ORD000032,2025-10-12,Individual,Standard,Healthcare,118.85,Chennai,Dubai,,ReliableExpress,3.0,5.0,Slightly-Delayed,Perfect,3.0,416.08,4465.78,0.0,138.86,140.25,43.35,25.2,36.46,34.14,31.05,3.0,0.9033333333333333
+ORD000033,2025-09-28,SMB,Economy,Electronics,6441.2,Delhi,Chennai,,SpeedyLogistics,5.0,5.0,On-Time,Perfect,5.0,505.95,1290.06,22.0,174.15,143.41,60.58,38.7,29.38,52.05,45.67,,0.11666666666666667
+ORD000034,2025-09-16,Enterprise,Economy,Books,601.2,Mumbai,Dubai,Temperature_Controlled,ReliableExpress,7.0,8.0,Slightly-Delayed,Perfect,3.0,791.94,2232.95,0.0,297.78,210.17,85.1,50.22,53.89,76.29,66.51,3.0,0.8966666666666666
+ORD000035,2025-09-15,Enterprise,Express,Healthcare,292.89,Pune,Delhi,,SpeedyLogistics,2.0,3.0,Slightly-Delayed,Perfect,3.0,602.9,212.22,2.0,184.29,152.82,72.1,51.16,35.98,63.7,37.98,,0.7633333333333333
+ORD000036,2025-10-17,SMB,Express,Industrial,496.59,Chennai,Hong Kong,Fragile,EcoDeliver,2.0,3.0,Slightly-Delayed,Perfect,3.0,518.38,3731.12,0.0,201.45,176.03,59.54,31.88,36.58,46.46,43.35,,0.73
+ORD000037,2025-10-14,SMB,Express,Books,1269.5,Chennai,Dubai,,QuickShip,1.0,1.0,On-Time,Minor_Damage,4.0,253.27,2302.82,0.0,96.9,80.36,35.77,17.69,14.64,27.74,17.23,,0.16666666666666666
+ORD000038,2025-09-03,Enterprise,Express,Books,410.02,Hyderabad,Singapore,,SpeedyLogistics,1.0,6.0,Severely-Delayed,Perfect,1.0,669.84,2338.79,0.0,245.92,185.59,69.7,66.74,38.72,80.07,66.22,1.0,0.8766666666666667
+ORD000039,2025-10-07,SMB,Express,Food & Beverage,1514.58,Bangalore,Dubai,Hazmat,GlobalTransit,2.0,3.0,Slightly-Delayed,Perfect,3.0,368.69,3434.78,0.0,139.87,116.48,47.52,34.4,23.77,36.39,29.85,,0.72
+ORD000040,2025-09-07,Enterprise,Standard,Electronics,32.22,Kolkata,Hyderabad,,GlobalTransit,5.0,5.0,On-Time,Perfect,5.0,637.37,1233.65,33.0,217.42,186.59,74.26,49.85,58.98,56.13,61.65,5.0,0.09
+ORD000041,2025-09-21,SMB,Express,Electronics,131.37,Bangalore,Bangkok,,ReliableExpress,1.0,2.0,Slightly-Delayed,Perfect,3.0,581.61,4410.45,0.0,214.56,193.28,74.34,51.75,29.55,65.57,30.25,3.0,0.83
+ORD000042,2025-09-09,Enterprise,Standard,Home Goods,16.31,Mumbai,Bangkok,Fragile,ReliableExpress,4.0,4.0,On-Time,Perfect,4.0,588.56,4718.33,0.0,228.94,205.52,67.51,35.62,51.95,53.04,54.9,,0.41
+ORD000043,2025-10-09,SMB,Economy,Home Goods,8066.8,Delhi,Bangalore,,QuickShip,10.0,12.0,Slightly-Delayed,Wrong_Item,1.0,1045.15,484.25,52.0,324.29,274.45,155.68,87.47,96.51,97.17,87.61,,0.8
+ORD000044,2025-09-18,SMB,Express,Home Goods,7910.83,Bangalore,Singapore,,SpeedyLogistics,1.0,1.0,On-Time,Perfect,5.0,150.84,2643.88,0.0,54.22,46.81,20.23,11.88,10.78,13.73,13.34,5.0,0.29
+ORD000045,2025-09-04,Individual,Economy,Home Goods,1032.69,Kolkata,Pune,Hazmat,SpeedyLogistics,5.0,5.0,On-Time,Perfect,4.0,637.03,419.33,31.0,205.52,203.36,71.14,51.77,55.65,56.54,33.76,,0.12
+ORD000046,2025-09-25,Enterprise,Standard,Industrial,88.33,Mumbai,Singapore,,SpeedyLogistics,3.0,5.0,Slightly-Delayed,Perfect,3.0,681.84,3757.59,0.0,213.48,211.78,97.14,35.63,59.12,63.86,50.41,,0.7866666666666666
+ORD000047,2025-09-14,SMB,Express,Industrial,14542.31,Mumbai,Bangkok,Temperature_Controlled,QuickShip,1.0,1.0,On-Time,Perfect,4.0,166.22,4047.85,0.0,65.31,47.07,20.49,8.42,8.99,15.02,8.54,,0.31333333333333335
+ORD000048,2025-10-20,Enterprise,Standard,Books,162.94,Delhi,Hyderabad,,EcoDeliver,3.0,3.0,On-Time,Perfect,5.0,598.64,1498.31,21.0,217.39,175.19,76.27,35.16,38.79,63.79,58.83,5.0,0.016666666666666666
+ORD000049,2025-09-09,Individual,Standard,Fashion,293.0,Delhi,Hong Kong,,GlobalTransit,5.0,5.0,On-Time,Major_Damage,3.0,452.68,2359.86,0.0,138.09,153.48,58.33,35.4,33.96,37.47,24.67,3.0,0.22666666666666666
+ORD000050,2025-09-26,Individual,Economy,Food & Beverage,512.5,Kolkata,Delhi,,SpeedyLogistics,5.0,5.0,On-Time,Wrong_Item,4.0,616.12,782.46,33.0,221.86,175.04,89.87,43.33,35.22,66.9,39.84,,0.09
+ORD000051,2025-09-02,Enterprise,Economy,Food & Beverage,794.15,Delhi,Pune,,QuickShip,10.0,10.0,On-Time,Perfect,5.0,920.14,1170.25,75.0,324.39,294.25,133.43,82.45,77.12,98.63,89.53,,0.22333333333333333
+ORD000052,2025-09-20,SMB,Economy,Home Goods,1059.66,Chennai,Hyderabad,Temperature_Controlled,ReliableExpress,7.0,8.0,Slightly-Delayed,Perfect,3.0,765.07,274.67,92.0,252.15,191.35,86.91,46.59,63.57,80.6,60.96,3.0,0.8166666666666667
+ORD000053,2025-09-28,Individual,Standard,Books,1125.45,Bangalore,Hyderabad,Temperature_Controlled,ReliableExpress,3.0,3.0,On-Time,Perfect,5.0,286.91,569.49,86.0,86.54,92.64,33.33,23.89,22.33,26.89,16.28,5.0,0.06333333333333334
+ORD000054,2025-10-17,SMB,Express,Healthcare,324.8,Bangalore,Mumbai,,EcoDeliver,2.0,3.0,Slightly-Delayed,Perfect,3.0,488.53,893.85,43.0,151.17,162.75,71.29,40.3,26.95,46.94,42.23,,0.7666666666666667
+ORD000055,2025-09-07,SMB,Economy,Fashion,1099.0,Hyderabad,Delhi,Fragile,GlobalTransit,7.0,12.0,Severely-Delayed,Perfect,3.0,919.83,637.66,64.0,347.68,240.83,91.98,78.74,62.39,82.95,46.58,3.0,0.7066666666666667
+ORD000056,2025-10-14,Enterprise,Economy,Books,303.74,Delhi,Singapore,,SpeedyLogistics,7.0,7.0,On-Time,Perfect,5.0,810.13,3694.95,0.0,286.81,271.49,119.8,63.42,61.35,67.57,62.74,,0.81
+ORD000057,2025-09-08,Enterprise,Economy,Fashion,961.94,Kolkata,Bangalore,,EcoDeliver,10.0,10.0,On-Time,Perfect,5.0,761.7,1642.24,82.0,257.45,236.67,90.97,47.24,41.7,70.53,41.77,,0.14333333333333334
+ORD000058,2025-10-17,Individual,Standard,Fashion,850.6,Delhi,Hong Kong,,ReliableExpress,4.0,4.0,On-Time,Incomplete,3.0,428.43,3131.95,0.0,136.11,149.41,52.36,32.81,40.14,51.34,33.9,,0.056666666666666664
+ORD000059,2025-10-05,Individual,Standard,Fashion,1266.83,Delhi,Chennai,,GlobalTransit,3.0,7.0,Severely-Delayed,Perfect,1.0,749.94,1267.93,32.0,285.91,212.0,86.46,52.6,62.71,80.46,49.32,,0.9066666666666666
+ORD000060,2025-09-14,SMB,Economy,Books,1050.42,Pune,Singapore,,ReliableExpress,5.0,5.0,On-Time,Perfect,5.0,515.07,4532.75,0.0,161.38,161.34,54.81,40.65,43.61,55.64,45.16,5.0,0.07666666666666666
+ORD000061,2025-09-17,SMB,Standard,Home Goods,207.75,Mumbai,Singapore,Fragile,ReliableExpress,4.0,4.0,On-Time,Perfect,5.0,558.44,2762.69,0.0,216.28,167.53,76.23,45.21,33.13,45.25,35.87,,0.15333333333333332
+ORD000062,2025-10-06,SMB,Economy,Food & Beverage,802.77,Mumbai,Bangalore,,QuickShip,5.0,5.0,On-Time,Perfect,4.0,608.58,573.35,67.0,209.54,189.7,86.72,36.4,34.25,72.14,33.72,4.0,0.08
+ORD000063,2025-10-20,Individual,Economy,Food & Beverage,1075.03,Kolkata,Singapore,,ReliableExpress,7.0,9.0,Slightly-Delayed,Perfect,3.0,905.22,2894.16,0.0,314.88,279.31,115.03,49.15,47.84,76.24,71.77,3.0,0.94
+ORD000064,2025-10-10,Individual,Standard,Home Goods,58.17,Mumbai,Bangkok,,GlobalTransit,4.0,5.0,Slightly-Delayed,Perfect,3.0,589.48,3932.45,0.0,208.93,161.15,77.75,53.64,30.7,58.9,49.79,,0.75
+ORD000065,2025-09-04,Individual,Economy,Fashion,267.45,Hyderabad,Mumbai,,QuickShip,7.0,7.0,On-Time,Perfect,5.0,650.86,1726.56,40.0,211.68,182.75,85.06,61.76,58.9,67.25,56.31,,0.20333333333333334
+ORD000066,2025-09-02,Individual,Economy,Healthcare,1004.43,Delhi,Pune,Fragile,QuickShip,7.0,12.0,Severely-Delayed,Perfect,3.0,755.55,288.66,98.0,254.23,237.32,93.17,44.95,64.29,77.26,51.33,3.0,0.8433333333333334
+ORD000067,2025-09-06,SMB,Express,Electronics,5239.28,Pune,Singapore,,ReliableExpress,1.0,1.0,On-Time,Perfect,5.0,196.3,2157.07,0.0,76.78,49.49,22.73,10.37,17.34,21.22,13.07,5.0,0.08
+ORD000068,2025-10-12,Enterprise,Economy,Books,1390.4,Kolkata,Bangalore,,ReliableExpress,7.0,7.0,On-Time,Perfect,4.0,511.73,1497.71,15.0,188.09,148.19,70.52,37.21,36.14,60.07,32.01,,0.41
+ORD000069,2025-09-04,Enterprise,Standard,Electronics,5759.28,Chennai,Singapore,,ReliableExpress,3.0,4.0,Slightly-Delayed,Perfect,3.0,368.74,4609.29,0.0,115.06,113.74,54.75,25.4,19.58,34.5,27.76,,0.7066666666666667
+ORD000070,2025-09-29,Individual,Economy,Home Goods,221.95,Pune,Mumbai,,SpeedyLogistics,10.0,15.0,Severely-Delayed,Perfect,1.0,1105.15,1453.61,108.0,349.44,349.02,165.65,80.22,74.86,106.13,61.62,,0.77
+ORD000071,2025-09-18,SMB,Standard,Healthcare,587.15,Delhi,Bangkok,,ReliableExpress,5.0,5.0,On-Time,Perfect,5.0,646.39,2409.8,0.0,251.01,188.41,77.16,53.64,46.61,68.47,34.31,,0.14666666666666667
+ORD000072,2025-09-26,Enterprise,Economy,Books,1351.0,Pune,Bangkok,,ReliableExpress,5.0,9.0,Severely-Delayed,Perfect,1.0,762.0,2946.88,0.0,290.61,262.17,100.92,74.47,43.87,75.51,61.03,,0.9066666666666666
+ORD000073,2025-10-14,Enterprise,Standard,Home Goods,12.31,Mumbai,Dubai,Fragile,ReliableExpress,3.0,8.0,Severely-Delayed,Perfect,2.0,831.61,4139.62,0.0,297.86,241.29,97.22,46.85,57.87,71.94,72.12,2.0,0.9666666666666667
+ORD000074,2025-10-04,SMB,Express,Fashion,3890.16,Bangalore,Bangkok,Temperature_Controlled,ReliableExpress,2.0,2.0,On-Time,Perfect,5.0,596.51,2862.23,0.0,191.41,152.62,76.13,47.58,55.83,61.49,40.13,,0.13333333333333333
+ORD000075,2025-09-10,Enterprise,Economy,Food & Beverage,24.75,Delhi,Dubai,,ReliableExpress,10.0,15.0,Severely-Delayed,Perfect,3.0,1178.01,2334.54,0.0,448.0,358.15,122.47,92.23,112.38,112.92,76.35,,0.6233333333333333
+ORD000076,2025-10-06,Enterprise,Express,Electronics,1799.76,Bangalore,Hyderabad,,QuickShip,2.0,2.0,On-Time,Perfect,5.0,477.95,1520.32,36.0,150.24,126.73,58.14,38.13,25.82,56.2,41.94,5.0,0.04
+ORD000077,2025-09-14,SMB,Standard,Industrial,1130.31,Mumbai,Hong Kong,,QuickShip,3.0,3.0,On-Time,Perfect,5.0,463.0,4514.8,0.0,166.06,154.11,48.16,34.19,37.74,52.39,41.29,5.0,0.08333333333333333
+ORD000078,2025-10-01,SMB,Economy,Industrial,12.07,Hyderabad,Chennai,,SpeedyLogistics,7.0,7.0,On-Time,Perfect,5.0,629.54,153.42,101.0,206.3,216.62,66.87,59.02,62.04,54.82,54.21,5.0,0.13
+ORD000079,2025-10-18,SMB,Economy,Healthcare,13.02,Hyderabad,Bangkok,,GlobalTransit,7.0,8.0,Slightly-Delayed,Wrong_Item,2.0,533.76,3785.4,0.0,162.28,155.08,67.15,42.18,51.67,57.05,39.53,,0.81
+ORD000080,2025-09-15,Enterprise,Standard,Fashion,3458.96,Pune,Hyderabad,,QuickShip,3.0,3.0,On-Time,Perfect,5.0,409.75,1737.95,101.0,156.1,141.39,41.43,40.62,22.25,46.13,26.23,5.0,0.08666666666666667
+ORD000081,2025-09-08,Individual,Standard,Electronics,2495.1,Mumbai,Ahmedabad,,ReliableExpress,5.0,7.0,Slightly-Delayed,Perfect,3.0,814.05,873.36,80.0,254.98,239.32,107.62,56.21,42.92,84.64,77.43,,0.7133333333333334
+ORD000082,2025-09-14,Enterprise,Standard,Fashion,107.63,Chennai,Hyderabad,,SpeedyLogistics,5.0,6.0,Slightly-Delayed,Perfect,3.0,723.21,1759.22,52.0,244.68,196.45,88.32,37.91,65.83,81.76,57.42,3.0,0.8766666666666667
+ORD000083,2025-09-23,SMB,Standard,Electronics,107.47,Bangalore,Bangkok,,SpeedyLogistics,5.0,10.0,Severely-Delayed,Perfect,2.0,686.42,3147.74,0.0,230.16,226.5,87.68,62.67,55.99,76.45,54.86,2.0,0.8133333333333334
+ORD000084,2025-10-10,Individual,Standard,Healthcare,870.36,Delhi,Hong Kong,,ReliableExpress,4.0,4.0,On-Time,Perfect,5.0,486.64,3306.52,0.0,166.15,168.28,61.83,39.06,29.7,51.11,38.24,5.0,0.08666666666666667
+ORD000085,2025-09-21,SMB,Standard,Healthcare,395.79,Delhi,Dubai,,SpeedyLogistics,4.0,7.0,Severely-Delayed,Perfect,1.0,776.69,4217.08,0.0,247.36,198.8,101.14,68.49,59.16,69.18,64.72,1.0,0.9433333333333334
+ORD000086,2025-09-16,Individual,Economy,Industrial,1961.75,Delhi,Chennai,,SpeedyLogistics,7.0,10.0,Severely-Delayed,Perfect,1.0,626.95,1070.1,116.0,193.11,184.44,67.82,37.13,37.69,59.85,32.95,1.0,0.8266666666666667
+ORD000087,2025-10-15,SMB,Economy,Fashion,828.3,Chennai,Ahmedabad,,SpeedyLogistics,10.0,10.0,On-Time,Perfect,4.0,754.96,1756.13,72.0,256.52,227.37,93.74,52.2,69.42,64.79,56.84,4.0,0.20333333333333334
+ORD000088,2025-09-18,SMB,Economy,Books,4335.3,Bangalore,Hong Kong,Fragile,SpeedyLogistics,5.0,5.0,On-Time,Perfect,4.0,690.74,4489.29,0.0,211.51,177.6,88.89,54.09,64.86,70.67,67.69,,0.17666666666666667
+ORD000089,2025-10-17,Enterprise,Express,Industrial,1728.69,Bangalore,Hong Kong,,SpeedyLogistics,1.0,2.0,Slightly-Delayed,Perfect,3.0,361.56,2621.28,0.0,110.23,93.93,36.95,21.43,27.86,38.26,18.9,,0.73
+ORD000090,2025-09-24,SMB,Standard,Fashion,1189.35,Mumbai,Bangkok,Hazmat,GlobalTransit,4.0,5.0,Slightly-Delayed,Perfect,3.0,381.05,4130.41,0.0,150.36,127.35,43.76,20.52,22.29,32.42,21.4,3.0,0.8633333333333333
+ORD000091,2025-09-26,Enterprise,Express,Industrial,237.89,Mumbai,Hyderabad,,GlobalTransit,1.0,5.0,Severely-Delayed,Perfect,1.0,567.01,904.78,43.0,199.51,155.69,66.85,56.4,47.75,66.88,32.39,1.0,0.6033333333333334
+ORD000092,2025-09-25,Enterprise,Standard,Books,213.15,Mumbai,Ahmedabad,Fragile,EcoDeliver,5.0,5.0,On-Time,Major_Damage,4.0,694.7,1728.24,4.0,234.96,212.21,72.14,34.88,58.02,73.41,49.0,4.0,0.12333333333333334
+ORD000093,2025-10-15,Individual,Standard,Food & Beverage,373.29,Ahmedabad,Delhi,,QuickShip,4.0,8.0,Severely-Delayed,Perfect,1.0,736.11,1206.63,31.0,256.88,214.61,74.49,49.15,43.32,61.79,72.02,1.0,0.8766666666666667
+ORD000094,2025-10-11,SMB,Economy,Food & Beverage,6383.13,Mumbai,Kolkata,Fragile,ReliableExpress,10.0,11.0,Slightly-Delayed,Perfect,3.0,740.51,721.66,107.0,266.54,239.09,85.73,51.58,45.8,62.11,43.65,,0.78
+ORD000095,2025-09-29,Individual,Standard,Food & Beverage,219.33,Mumbai,Bangalore,Fragile,SpeedyLogistics,3.0,3.0,On-Time,Perfect,5.0,403.7,1623.33,44.0,153.31,128.28,51.41,29.77,38.8,33.47,25.85,,0.06666666666666667
+ORD000096,2025-09-15,SMB,Express,Food & Beverage,596.33,Delhi,Ahmedabad,,SpeedyLogistics,2.0,2.0,On-Time,Perfect,5.0,380.05,1768.81,67.0,127.31,124.75,56.87,23.58,35.62,43.03,23.27,5.0,0.06333333333333334
+ORD000097,2025-10-15,Individual,Express,Home Goods,13.91,Kolkata,Delhi,,ReliableExpress,1.0,2.0,Slightly-Delayed,Perfect,3.0,431.71,1246.02,48.0,146.75,125.61,64.29,25.49,38.84,40.31,37.36,3.0,0.6266666666666667
+ORD000098,2025-09-01,SMB,Economy,Electronics,1111.77,Ahmedabad,Bangkok,,SpeedyLogistics,5.0,9.0,Severely-Delayed,Perfect,3.0,853.74,3012.02,0.0,291.98,262.81,120.92,77.01,79.67,70.34,72.23,3.0,0.9566666666666667
+ORD000099,2025-09-25,SMB,Standard,Home Goods,11917.91,Kolkata,Mumbai,,QuickShip,4.0,5.0,Slightly-Delayed,Perfect,4.0,389.55,203.07,25.0,122.32,113.59,49.64,27.32,29.6,46.69,22.11,4.0,0.7266666666666667
+ORD000100,2025-09-07,SMB,Express,Home Goods,99.44,Chennai,Dubai,,QuickShip,2.0,2.0,On-Time,Perfect,5.0,555.86,2023.52,0.0,204.3,160.98,59.28,32.2,54.18,64.03,53.0,5.0,0.07666666666666666
+ORD000101,2025-09-09,Enterprise,Express,Home Goods,47177.07,Bangalore,Mumbai,,QuickShip,2.0,2.0,On-Time,Perfect,5.0,204.92,328.27,26.0,81.79,55.5,24.13,17.1,15.2,19.82,13.91,5.0,0.13333333333333333
+ORD000102,2025-09-24,Individual,Economy,Food & Beverage,530.26,Mumbai,Singapore,,SpeedyLogistics,5.0,7.0,Slightly-Delayed,Perfect,4.0,598.02,3062.8,0.0,214.92,183.93,64.63,44.01,46.45,61.48,36.18,4.0,0.77
+ORD000103,2025-09-01,Enterprise,Express,Books,8.5,Pune,Delhi,,GlobalTransit,1.0,2.0,Slightly-Delayed,Perfect,3.0,210.97,1155.54,61.0,78.95,53.27,24.84,18.78,16.5,19.08,17.88,3.0,0.83
+ORD000104,2025-10-14,Enterprise,Economy,Healthcare,226.26,Kolkata,Singapore,Fragile,QuickShip,5.0,5.0,On-Time,Perfect,5.0,507.19,3639.73,0.0,180.93,167.18,69.36,40.83,37.74,43.28,31.99,,0.25333333333333335
+ORD000105,2025-09-08,SMB,Economy,Healthcare,2968.04,Chennai,Bangalore,,SpeedyLogistics,10.0,10.0,On-Time,Perfect,5.0,810.33,381.77,43.0,277.06,251.15,101.85,52.19,40.78,80.91,52.09,,0.19
+ORD000106,2025-09-24,Enterprise,Express,Electronics,8094.79,Kolkata,Pune,Hazmat,ReliableExpress,1.0,4.0,Severely-Delayed,Perfect,1.0,504.67,1246.39,74.0,188.47,127.38,65.22,48.99,29.63,49.89,27.54,1.0,0.8566666666666667
+ORD000107,2025-09-11,Individual,Express,Food & Beverage,1184.59,Kolkata,Bangalore,,ReliableExpress,1.0,1.0,On-Time,Perfect,5.0,216.25,1551.43,69.0,78.41,65.97,26.03,16.45,20.51,19.0,11.06,5.0,0.07333333333333333
+ORD000108,2025-09-17,Individual,Economy,Food & Beverage,4236.07,Chennai,Ahmedabad,,EcoDeliver,10.0,10.0,On-Time,Perfect,4.0,858.3,1182.12,55.0,331.45,264.11,124.05,68.53,77.68,83.42,75.1,4.0,0.17666666666666667
+ORD000109,2025-09-08,Individual,Standard,Food & Beverage,68.95,Ahmedabad,Hong Kong,,SpeedyLogistics,3.0,3.0,On-Time,Perfect,5.0,267.91,4943.43,0.0,104.83,82.31,29.21,17.0,16.06,24.08,17.5,5.0,0.11
+ORD000110,2025-10-05,SMB,Standard,Industrial,145.42,Pune,Dubai,,ReliableExpress,5.0,10.0,Severely-Delayed,Perfect,2.0,904.76,3310.99,0.0,321.65,279.39,109.77,73.08,48.93,75.56,53.01,,0.9
+ORD000111,2025-10-05,Enterprise,Economy,Fashion,32.49,Chennai,Delhi,Fragile,QuickShip,10.0,10.0,On-Time,Perfect,5.0,978.66,1157.98,3.0,344.3,265.61,111.73,68.52,88.66,78.84,80.71,5.0,0.12
+ORD000112,2025-10-03,Individual,Economy,Industrial,162.78,Chennai,Hyderabad,,GlobalTransit,10.0,10.0,On-Time,Perfect,4.0,735.91,1344.61,16.0,270.0,242.75,107.91,37.54,42.45,84.96,53.67,4.0,0.19
+ORD000113,2025-09-05,SMB,Economy,Fashion,1265.06,Mumbai,Pune,Fragile,SpeedyLogistics,10.0,15.0,Severely-Delayed,Perfect,1.0,1056.9,986.48,118.0,376.74,334.3,141.58,102.08,105.53,115.0,68.02,1.0,0.8433333333333334
+ORD000114,2025-10-12,Individual,Economy,Food & Beverage,555.01,Chennai,Kolkata,,ReliableExpress,7.0,7.0,On-Time,Perfect,5.0,601.56,1552.18,99.0,233.39,153.35,67.11,57.07,37.78,53.43,34.23,5.0,0.10333333333333333
+ORD000115,2025-10-09,Individual,Standard,Food & Beverage,1482.93,Mumbai,Kolkata,,SpeedyLogistics,3.0,3.0,On-Time,Perfect,5.0,252.68,1189.05,58.0,97.51,75.81,33.79,15.65,22.21,27.9,16.58,,0.22666666666666666
+ORD000116,2025-10-11,Individual,Express,Industrial,99.01,Bangalore,Kolkata,,GlobalTransit,2.0,2.0,On-Time,Minor_Damage,4.0,354.35,1398.08,43.0,120.86,96.02,52.74,29.16,34.28,32.65,31.57,,0.14666666666666667
+ORD000117,2025-09-28,Enterprise,Economy,Industrial,108.5,Ahmedabad,Delhi,,SpeedyLogistics,5.0,5.0,On-Time,Perfect,4.0,666.69,115.37,27.0,251.07,212.78,98.86,46.45,37.69,71.25,57.65,,0.13666666666666666
+ORD000118,2025-09-07,SMB,Standard,Fashion,548.35,Bangalore,Kolkata,,ReliableExpress,4.0,4.0,On-Time,Perfect,5.0,538.4,1178.42,103.0,192.48,145.74,67.42,35.32,38.43,56.97,46.98,5.0,0.06333333333333334
+ORD000119,2025-09-09,Individual,Standard,Healthcare,163.37,Bangalore,Bangkok,,ReliableExpress,3.0,7.0,Severely-Delayed,Perfect,1.0,490.5,4186.58,0.0,158.54,142.51,55.65,29.4,43.74,57.08,33.6,1.0,0.7466666666666667
+ORD000120,2025-09-08,SMB,Economy,Fashion,2843.45,Delhi,Mumbai,,ReliableExpress,5.0,5.0,On-Time,Perfect,5.0,688.86,149.59,12.0,258.41,234.01,98.03,40.74,67.38,65.49,46.13,5.0,0.15
+ORD000121,2025-09-12,Enterprise,Express,Industrial,157.41,Mumbai,Pune,,GlobalTransit,1.0,1.0,On-Time,Perfect,4.0,362.43,1632.35,118.0,110.99,108.23,38.22,22.63,23.86,40.72,33.99,,0.16333333333333333
+ORD000122,2025-10-04,SMB,Standard,Books,191.89,Kolkata,Mumbai,,SpeedyLogistics,3.0,3.0,On-Time,Perfect,5.0,586.69,1788.53,92.0,193.75,197.05,83.82,51.77,33.64,63.14,57.06,,0.16
+ORD000123,2025-10-03,Individual,Express,Industrial,756.16,Mumbai,Hong Kong,,QuickShip,2.0,2.0,On-Time,Minor_Damage,3.0,432.09,3906.33,0.0,159.12,122.35,54.02,35.56,32.64,36.64,28.35,,0.14
+ORD000124,2025-10-18,SMB,Standard,Books,224.99,Mumbai,Pune,,QuickShip,5.0,5.0,On-Time,Perfect,5.0,573.88,198.09,89.0,218.21,192.91,61.33,56.02,38.13,61.11,50.27,5.0,0.04
+ORD000125,2025-09-23,SMB,Express,Electronics,63.28,Delhi,Mumbai,,SpeedyLogistics,2.0,3.0,Slightly-Delayed,Perfect,3.0,292.1,1438.83,83.0,111.35,100.65,33.78,27.14,16.53,31.61,25.44,3.0,0.83
+ORD000126,2025-09-24,Enterprise,Express,Industrial,77.55,Kolkata,Pune,,ReliableExpress,1.0,2.0,Slightly-Delayed,Perfect,3.0,266.94,806.53,0.0,98.17,73.47,38.35,15.6,14.06,29.02,19.69,,0.7433333333333333
+ORD000127,2025-10-07,SMB,Express,Electronics,903.84,Kolkata,Hong Kong,,EcoDeliver,2.0,2.0,On-Time,Perfect,5.0,588.81,4754.72,0.0,226.64,169.78,63.84,54.07,45.6,51.56,50.65,,0.10333333333333333
+ORD000128,2025-10-05,Individual,Standard,Healthcare,52.56,Mumbai,Singapore,,ReliableExpress,3.0,4.0,Slightly-Delayed,Perfect,3.0,391.39,2662.56,0.0,137.42,121.5,48.16,35.79,35.8,42.42,21.63,3.0,0.81
+ORD000129,2025-10-14,Enterprise,Economy,Fashion,3280.49,Bangalore,Bangkok,,ReliableExpress,5.0,7.0,Slightly-Delayed,Perfect,3.0,840.98,2525.67,0.0,322.84,266.68,113.41,57.31,79.02,91.68,46.78,,0.8933333333333333
+ORD000130,2025-10-10,SMB,Standard,Books,143.22,Bangalore,Delhi,,EcoDeliver,5.0,5.0,On-Time,Perfect,5.0,562.77,1715.78,10.0,191.78,190.58,57.61,55.19,47.25,59.23,35.75,,0.05
+ORD000131,2025-09-22,Individual,Economy,Fashion,1016.71,Chennai,Delhi,Temperature_Controlled,SpeedyLogistics,5.0,5.0,On-Time,Perfect,5.0,404.32,826.75,114.0,131.36,139.17,46.46,35.89,28.16,34.6,20.43,,0.31
+ORD000132,2025-09-27,Individual,Standard,Electronics,156.71,Chennai,Kolkata,,QuickShip,5.0,6.0,Slightly-Delayed,Perfect,4.0,439.72,700.19,70.0,155.85,152.84,52.09,29.84,29.55,44.33,31.67,,0.8233333333333334
+ORD000133,2025-10-05,SMB,Standard,Books,102.22,Delhi,Bangkok,,EcoDeliver,5.0,5.0,On-Time,Wrong_Item,4.0,433.55,3202.83,0.0,168.21,130.3,54.36,24.68,42.98,39.02,23.27,4.0,0.07333333333333333
+ORD000134,2025-09-01,Individual,Economy,Fashion,583.56,Bangalore,Chennai,,SpeedyLogistics,5.0,6.0,Slightly-Delayed,Perfect,3.0,770.25,1611.11,108.0,282.15,238.42,93.01,54.77,68.75,67.65,70.1,,0.86
+ORD000135,2025-10-05,SMB,Standard,Industrial,1954.08,Bangalore,Kolkata,,ReliableExpress,3.0,6.0,Severely-Delayed,Perfect,1.0,565.66,416.43,102.0,206.4,165.11,69.52,35.54,49.56,56.86,37.36,,0.5433333333333333
+ORD000136,2025-10-07,Enterprise,Economy,Food & Beverage,278.37,Hyderabad,Ahmedabad,,QuickShip,5.0,10.0,Severely-Delayed,Perfect,1.0,758.17,1181.27,14.0,272.64,265.04,92.32,72.81,50.99,62.31,45.65,,0.7766666666666666
+ORD000137,2025-10-17,Individual,Express,Electronics,365.69,Bangalore,Bangkok,,QuickShip,2.0,2.0,On-Time,Perfect,5.0,325.28,3380.01,0.0,111.2,88.46,32.53,31.15,29.99,35.68,18.99,,0.11
+ORD000138,2025-09-14,Individual,Economy,Fashion,1354.42,Delhi,Mumbai,Temperature_Controlled,ReliableExpress,10.0,13.0,Severely-Delayed,Incomplete,3.0,808.82,180.99,92.0,252.38,207.67,110.16,78.0,57.85,68.56,61.16,3.0,0.68
+ORD000139,2025-09-03,Individual,Express,Electronics,1423.38,Delhi,Pune,,EcoDeliver,1.0,4.0,Severely-Delayed,Perfect,1.0,495.14,1212.91,56.0,165.81,142.34,64.9,42.55,27.5,40.32,49.37,1.0,0.69
+ORD000140,2025-09-01,Individual,Economy,Home Goods,380.8,Bangalore,Chennai,,ReliableExpress,10.0,10.0,On-Time,Perfect,4.0,652.02,177.19,108.0,210.78,166.51,71.39,33.87,45.37,73.09,43.73,4.0,0.4866666666666667
+ORD000141,2025-09-05,SMB,Standard,Electronics,207.43,Kolkata,Bangkok,,SpeedyLogistics,4.0,6.0,Slightly-Delayed,Perfect,3.0,734.19,2383.6,0.0,252.87,233.15,92.1,68.33,68.5,59.03,65.27,3.0,0.9233333333333333
+ORD000142,2025-09-26,SMB,Economy,Books,456.68,Bangalore,Hong Kong,,EcoDeliver,7.0,7.0,On-Time,Perfect,5.0,598.16,3249.7,0.0,207.01,208.69,74.27,59.42,52.48,53.8,46.01,5.0,0.16
+ORD000143,2025-09-14,Individual,Express,Home Goods,302.97,Chennai,Ahmedabad,,SpeedyLogistics,1.0,2.0,Slightly-Delayed,Incomplete,1.0,349.92,1754.23,37.0,139.69,117.49,36.7,29.85,23.54,28.09,24.56,1.0,0.8833333333333333
+ORD000144,2025-10-09,SMB,Standard,Books,645.14,Kolkata,Hong Kong,,GlobalTransit,3.0,5.0,Slightly-Delayed,Wrong_Item,2.0,539.6,3312.45,0.0,174.55,179.09,63.06,49.31,27.0,49.81,33.49,2.0,0.8266666666666667
+ORD000145,2025-09-27,Individual,Economy,Food & Beverage,67.26,Bangalore,Delhi,,QuickShip,10.0,10.0,On-Time,Perfect,5.0,777.65,424.9,114.0,251.46,199.72,85.04,60.48,50.21,75.2,53.54,5.0,0.11333333333333333
+ORD000146,2025-09-09,Individual,Standard,Home Goods,611.41,Delhi,Bangalore,Temperature_Controlled,QuickShip,4.0,5.0,Slightly-Delayed,Perfect,3.0,747.94,1361.22,86.0,289.89,254.7,93.23,49.74,41.39,88.36,39.65,3.0,0.8166666666666667
+ORD000147,2025-09-15,Individual,Standard,Industrial,137.35,Hyderabad,Chennai,,GlobalTransit,5.0,6.0,Slightly-Delayed,Perfect,3.0,618.15,1623.27,111.0,203.84,172.96,71.72,35.99,55.11,52.48,50.53,3.0,0.8466666666666667
+ORD000148,2025-09-15,SMB,Standard,Electronics,1570.0,Delhi,Mumbai,,EcoDeliver,3.0,3.0,On-Time,Perfect,5.0,285.28,408.74,46.0,89.12,73.33,41.5,16.98,25.98,29.04,15.37,,0.16333333333333333
+ORD000149,2025-09-26,SMB,Standard,Fashion,147.13,Bangalore,Chennai,,ReliableExpress,4.0,4.0,On-Time,Perfect,5.0,542.75,1774.26,84.0,214.68,149.09,77.6,31.72,50.31,43.71,41.03,5.0,0.056666666666666664
+ORD000150,2025-10-12,Enterprise,Standard,Healthcare,151.01,Ahmedabad,Dubai,,QuickShip,5.0,5.0,On-Time,Perfect,4.0,410.63,2448.8,0.0,154.78,141.04,59.73,37.36,38.77,36.12,26.37,4.0,0.11333333333333333
+ORD000151,2025-09-13,SMB,Standard,Electronics,786.9,Mumbai,Ahmedabad,,,,,,,,,,,,,,,,,,,0.0
+ORD000152,2025-10-02,Enterprise,Economy,Electronics,412.12,Mumbai,Ahmedabad,,,,,,,,,,,,,,,,,,,0.0
+ORD000153,2025-10-09,SMB,Express,Food & Beverage,12270.8,Delhi,Bangkok,Fragile,,,,,,,,,,,,,,,,,,0.04
+ORD000154,2025-10-19,SMB,Standard,Industrial,35.02,Pune,Chennai,Fragile,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000155,2025-10-02,Enterprise,Economy,Healthcare,475.7,Mumbai,Bangalore,,,,,,,,,,,,,,,,,,,0.01
+ORD000156,2025-09-04,SMB,Economy,Home Goods,2196.18,Mumbai,Kolkata,Temperature_Controlled,,,,,,,,,,,,,,,,,,0.0
+ORD000157,2025-09-30,Enterprise,Standard,Home Goods,169.45,Mumbai,Pune,,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000158,2025-10-07,Enterprise,Standard,Home Goods,102.94,Mumbai,Bangkok,,,,,,,,,,,,,,,,,,,0.013333333333333334
+ORD000159,2025-09-23,Individual,Standard,Books,109.26,Mumbai,Bangkok,,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000160,2025-10-09,SMB,Express,Books,35.95,Bangalore,Chennai,Hazmat,,,,,,,,,,,,,,,,,,0.0
+ORD000161,2025-10-15,Enterprise,Standard,Fashion,3055.07,Bangalore,Mumbai,,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000162,2025-09-15,SMB,Standard,Healthcare,246.06,Delhi,Singapore,,,,,,,,,,,,,,,,,,,0.01
+ORD000163,2025-10-13,Individual,Standard,Home Goods,206.02,Delhi,Hyderabad,,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000164,2025-09-29,Enterprise,Express,Books,16.67,Mumbai,Hyderabad,,,,,,,,,,,,,,,,,,,0.0
+ORD000165,2025-10-06,SMB,Economy,Fashion,46.97,Delhi,Bangkok,,,,,,,,,,,,,,,,,,,0.0
+ORD000166,2025-09-13,Enterprise,Economy,Industrial,3633.98,Bangalore,Kolkata,,,,,,,,,,,,,,,,,,,0.0033333333333333335
+ORD000167,2025-10-02,Enterprise,Standard,Fashion,635.66,Kolkata,Pune,,,,,,,,,,,,,,,,,,,0.01
+ORD000168,2025-09-07,SMB,Standard,Books,2320.99,Mumbai,Chennai,,,,,,,,,,,,,,,,,,,0.0
+ORD000169,2025-09-22,SMB,Standard,Food & Beverage,1919.82,Bangalore,Dubai,,,,,,,,,,,,,,,,,,,0.0
+ORD000170,2025-09-28,SMB,Economy,Food & Beverage,89.93,Delhi,Hyderabad,,,,,,,,,,,,,,,,,,,0.0033333333333333335
+ORD000171,2025-09-02,Individual,Standard,Home Goods,15440.85,Hyderabad,Bangalore,,,,,,,,,,,,,,,,,,,0.023333333333333334
+ORD000172,2025-10-12,Individual,Express,Food & Beverage,7514.57,Chennai,Bangkok,,,,,,,,,,,,,,,,,,,0.02666666666666667
+ORD000173,2025-10-15,SMB,Economy,Home Goods,173.18,Bangalore,Mumbai,,,,,,,,,,,,,,,,,,,0.01
+ORD000174,2025-09-06,SMB,Economy,Home Goods,1.91,Delhi,Hong Kong,,,,,,,,,,,,,,,,,,,0.03
+ORD000175,2025-09-28,Individual,Economy,Books,236.32,Pune,Hyderabad,,,,,,,,,,,,,,,,,,,0.0
+ORD000176,2025-09-28,Enterprise,Economy,Food & Beverage,576.77,Mumbai,Bangalore,Hazmat,,,,,,,,,,,,,,,,,,0.0033333333333333335
+ORD000177,2025-10-14,SMB,Standard,Home Goods,172.16,Mumbai,Chennai,,,,,,,,,,,,,,,,,,,0.0033333333333333335
+ORD000178,2025-10-14,Enterprise,Standard,Healthcare,289.37,Delhi,Mumbai,,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000179,2025-09-20,Enterprise,Economy,Industrial,116.4,Mumbai,Dubai,,,,,,,,,,,,,,,,,,,0.0
+ORD000180,2025-09-30,Individual,Economy,Fashion,1607.53,Pune,Singapore,,,,,,,,,,,,,,,,,,,0.01
+ORD000181,2025-09-11,Individual,Express,Fashion,443.83,Kolkata,Delhi,,,,,,,,,,,,,,,,,,,0.01
+ORD000182,2025-09-28,SMB,Express,Books,1681.21,Delhi,Bangkok,,,,,,,,,,,,,,,,,,,0.0
+ORD000183,2025-09-25,SMB,Standard,Food & Beverage,2523.26,Bangalore,Singapore,,,,,,,,,,,,,,,,,,,0.0
+ORD000184,2025-10-09,Enterprise,Economy,Food & Beverage,15.46,Ahmedabad,Dubai,,,,,,,,,,,,,,,,,,,0.01
+ORD000185,2025-10-03,Enterprise,Economy,Home Goods,127.0,Hyderabad,Mumbai,Temperature_Controlled,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000186,2025-09-01,Enterprise,Express,Electronics,158.22,Chennai,Hyderabad,Fragile,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000187,2025-09-27,SMB,Standard,Home Goods,19092.65,Pune,Singapore,,,,,,,,,,,,,,,,,,,0.06333333333333334
+ORD000188,2025-09-13,Individual,Standard,Industrial,504.47,Ahmedabad,Bangkok,,,,,,,,,,,,,,,,,,,0.01
+ORD000189,2025-10-11,SMB,Economy,Healthcare,1364.91,Kolkata,Delhi,Fragile,,,,,,,,,,,,,,,,,,0.02666666666666667
+ORD000190,2025-09-03,Enterprise,Economy,Fashion,24.02,Mumbai,Kolkata,,,,,,,,,,,,,,,,,,,0.0
+ORD000191,2025-10-09,Individual,Economy,Home Goods,500.11,Delhi,Ahmedabad,,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000192,2025-09-06,Individual,Standard,Electronics,1750.12,Hyderabad,Bangalore,Hazmat,,,,,,,,,,,,,,,,,,0.0033333333333333335
+ORD000193,2025-09-08,SMB,Standard,Electronics,1469.9,Mumbai,Hyderabad,,,,,,,,,,,,,,,,,,,0.0
+ORD000194,2025-09-27,SMB,Standard,Home Goods,1027.72,Hyderabad,Singapore,,,,,,,,,,,,,,,,,,,0.0
+ORD000195,2025-09-09,SMB,Express,Books,411.37,Mumbai,Hong Kong,Hazmat,,,,,,,,,,,,,,,,,,0.0033333333333333335
+ORD000196,2025-10-07,Enterprise,Economy,Fashion,442.46,Mumbai,Chennai,,,,,,,,,,,,,,,,,,,0.0
+ORD000197,2025-10-03,SMB,Economy,Books,31.82,Delhi,Kolkata,,,,,,,,,,,,,,,,,,,0.0
+ORD000198,2025-10-12,Individual,Economy,Healthcare,104.5,Mumbai,Dubai,,,,,,,,,,,,,,,,,,,0.006666666666666667
+ORD000199,2025-10-14,Enterprise,Economy,Electronics,570.44,Pune,Ahmedabad,Fragile,,,,,,,,,,,,,,,,,,0.0033333333333333335
+ORD000200,2025-09-24,Enterprise,Standard,Electronics,137.83,Hyderabad,Mumbai,Temperature_Controlled,,,,,,,,,,,,,,,,,,0.006666666666666667
